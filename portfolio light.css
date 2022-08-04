@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Mukta', sans-serif;
+    background: white;
+}
+
+/*      NAVBAR      */
+/* 210, 155, 100 */
+.navbar {
+    background: linear-gradient(to right, rgb(140, 140, 140), rgb(200, 200, 200));
+    border-bottom: solid 0.50px rgb(200, 200, 200);
+    position: fixed;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.mode {
+    position: absolute;
+}
+.mode:hover {
+    background: unset !important;
+}
+
+.navbar a {
+    float: right;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mukta', sans-serif;
+    font-size: 23px;
+    font-weight: 550;
+    padding: 16px 20px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background: white;
+}
+
+/*      INTRO       */
+
+.welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section h1 {
+    color: #000;
+    font-size: 70px;
+}
+
+.welcome-section p {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+/*      PROJECTS        */
+
+.project-section {
+    background: rgb(230, 230, 230);
+    padding: 20px;
+}
+
+.project-section h2 {
+    color: #000;
+    border-bottom: solid 2px #000;
+    margin: 50px auto;
+    width: fit-content;
+    font-size: 50px;
+}
+
+.project-section div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.project-title {
+    color: #000;
+    background: rgb(140, 140, 140);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: background 0.5s;
+}
+
+.project:hover .project-title {
+    background: white;
+}
+/* 
+.fa-eye {
+    font-size: 80%;
+    font-weight: normal;
+    margin-right: 2px;
+    visibility: hidden;
+    transition: 2s;
+}
+
+.project:hover .fa-eye {
+    visibility: visible;
+} */
+
+
+.see-more {
+    background: rgb(140, 140, 140);
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 10px 8px 8px;
+    margin: 50px 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.see-more:hover {
+    background: white;
+}
+
+.see-more i {
+    margin-left: 4px;
+    transition: 0.3s;
+}
+
+.see-more:hover i {
+    transform: translateX(2px);
+}
+
+/*      CONTACTS        */
+
+.profile-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    margin: auto;
+    text-align: center;
+}
+
+.profile-link h2 {
+    color: #000;
+    font-size: 50px;
+}
+
+.profile-link p {
+    color: #000;
+    font-size: 25px;
+    margin: -10px 0 40px 0;
+}
+
+.contact {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.contact :hover {
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+
+.contact :not(:hover) {
+    transition: 0.5s;
+}
+
+.contact i> span {
+    font-family: 'Mukta', sans-serif;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+/*      FOOTER      */
+
+footer {
+    border-top: solid 5px rgb(140, 140, 140);
+    padding: 50px 00px;
+    display: flex;
+    justify-content: space-around;
+}
+footer > p {
+    color: #000;
+    font-size: 20px;
+}
+footer > p > i {
+    margin-left: 3px;
+}
+footer > p > a {
+    color: rgb(255, 50, 50);
+}
+footer > p > a:hover {
+    color: purple;
+}
+
+/*      MEDIA QUERRY        */
+
+@media only screen and (max-width: 700px) {
+    .welcome-section h1 {
+        font-size: 50px;
+    }
+    .welcome-section p {
+        font-size: 22px;
+    }
+
+    .project-section div {
+        column-gap: 20px;
+    }
+    .project-section h2, .profile-link h2 {
+        font-size: 40px;
+    }
+    .project-title {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+    img {
+        width: 250px;
+        height: 250px;
+    }
+    .see-more {
+        font-size: 20px;
+        padding: 5px 8px 5px 5px;
+    }
+
+    .contact {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .welcome-section h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .welcome-section p {
+        font-size: 18px;
+    }
+    
+    .project-section h2, .profile-link h2 {
+        font-size: 30px;
+    }
+    .project-section div {
+        column-gap: 15px;
+    }
+    .project-title {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    img {
+        width: 185px;
+        height: 200px;
+    }
+    .see-more {
+        font-size: 18px;
+        padding: 3px 6px 3px 3px;
+    }
+
+    .contact {
+        margin: 0 2px;
+    }
+
+    footer {
+        padding: 35px 0;
+    }
+    footer> p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 445px) {
+    .navbar {
+        padding: 0 20px;
+    }
+    .navbar a {
+        font-size: 20px;
+        font-weight: 550;
+        padding: 10px 15px;
+    }
+
+    .welcome-section h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .welcome-section p, .profile-link p {
+        font-size: 14px;
+    }
+
+    .project-section h2, .profile-link h2 {
+        font-size: 25px;
+    }
+    .project-section div {
+        row-gap: 20px;
+    }
+    .project-title {
+        font-size: 11px;
+    }
+    img {
+        width: 140px;
+        height: 150px;
+    }
+    .see-more {
+        font-size: 13.5px;
+    }
+
+    .profile-link h2 {
+        margin-bottom: 10px;
+    }
+    .contact {
+        font-size: 15px;
+        margin: 0 2px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+    footer> p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar a {
+        font-size: 18px;
+        font-weight: 550;
+        padding: 10px 10px;
+    }
+
+    .welcome-section h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .welcome-section p {
+        font-size: 12px;
+    }
+
+    .project-section h2, .profile-link h2 {
+        font-size: 23.5px;
+    }
+
+    .contact {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+
+    footer> p {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 355px) {
+    .welcome-section h1 {
+        font-size: 25px;
+    }
+    .welcome-section p {
+        font-size: 10px;
+    }
+
+    .project-section h2, .profile-link h2 {
+        font-size: 20px;
+    }
+    .project-title {
+        font-size: 9.5px;
+    }
+    img {
+        width: 120px;
+        height: 130px;
+    }
+    .see-more {
+        font-size: 12px;
+    }
+}
