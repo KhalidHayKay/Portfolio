@@ -25,6 +25,7 @@
             <p>I design web pages with <span class="stacks">HTML</span>, <span class="stacks">CSS</span>, <span class="stacks">SCSS</span> and <span class="stacks">Javascript</span>.</p>
             <p>I also use frameworks and libraries like <span class="stacks">Swiper.js</span> and <span class="stacks">Tailwind CSS</span> to craft dynamic carousels and responsive interfaces.</p>
         </div>
+        <a href="imgs/workspace_2.jpg" download>Download CV</a>
     </section>
 
     <section id="projects" class="projects">
@@ -39,11 +40,13 @@
                 <div class="text">
                     <h4>E-Commerce website</h4>
                     <h3>SELL4ME</h3>
-                    <p class="blackbox">Description of the project: A responsive Contact-Us Page that obtain users information in order for the developer or organization to acknowledge their complaints or contributions. Click to view more. </p>
-                    <h4>Technologies used include:</h4>
+                    <p class="blackbox">
+                        Frontend-only e-commerce website showcasing user-posted items. Streamlined interface for browsing products with no backend, focusing on user-generated content.
+                    </p>
+                    <h4>HTML . SCSS . Tailwind . Javascript</h4>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li><a href="https://github.com/KhalidHayKay/sell4me" target="_blank" class="fa-brands fa-github"></a></li>
+                        <li><a href="https://shop-sell4me.netlify.app" target="_blank" class="fa-solid fa-arrow-up-right-from-square"></a></li>
                     </ul>
                 </div>
                 <img src="imgs/projects_sneak_pic/sell4me.png" alt="Screenshot of the Contact-Us Page."/>
@@ -52,12 +55,14 @@
             <article class="reverse">
                 <div class="text">
                     <h4>Latest Project</h4>
-                    <h3>Quick-Task Manager App</h3>
-                    <p class="blackbox">Description of the project. The survey form is to collate information from end-users in order to feed the organization and developer on lapses or new features they need to be added to the webpage. Click to view more.</p>
-                    <h4>Technologies used include:</h4>
+                    <h3>Task Manager App</h3>
+                    <p class="blackbox">
+                        Introducing a robust task manager app equipped with essential features like adding, editing, deleting, and archiving tasks. Utilizing local storage for seamless task management without relying on a database.
+                    </p>
+                    <h4>HTML . SCSS . Javascript</h4>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li><a href="https://github.com/KhalidHayKay/todo-web-app" target="_blank" class="fa-brands fa-github"></a></li>
+                        <li><a href="https://todo-webapk.netlify.app" target="_blank" class="fa-solid fa-arrow-up-right-from-square"></a></li>
                     </ul>
                 </div>
                 <img src="imgs/projects_sneak_pic/todolist_apk.png" target="_blank" alt="Screenshot of Survey Form"/>
@@ -67,14 +72,48 @@
                 <div class="text">
                     <h4>Fun Project</h4>
                     <h3>Calculator App</h3>
-                    <p class="blackbox">Description of the project. This product-review page is a demo page that shows how a product-review website to view more.</p>
-                    <h4>Technologies used include:</h4>
+                    <p class="blackbox">
+                        Presenting a multifunctional calculator app featuring advanced capabilities beyond basic arithmetic. Employs specialized functions for square roots, root finding, and distinct display of problems and solutions on the designated screen for enhanced usability and clarity.
+                    </p>
+                    <h4>HTML . CSS . Javascript</h4>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li><a href="https://github.com/KhalidHayKay/calculator" target="_blank" class="fa-brands fa-github"></a></li>
+                        <li><a href="https://quickuse-calculator.netlify.app" target="_blank" class="fa-solid fa-arrow-up-right-from-square"></a></li>
                     </ul>
                 </div>
                 <img src="/imgs/projects_sneak_pic/calculator.png" target="_blank" alt="Screenshot of Review Page"/>
+            </article>
+
+            <article class="reverse">
+                <div class="text">
+                    <h4>Coding Challenge</h4>
+                    <h3>Landing Page</h3>
+                    <p class="blackbox">
+                        Presenting a multifunctional calculator app featuring advanced capabilities beyond basic arithmetic. Employs specialized functions for square roots, root finding, and distinct display of problems and solutions on the designated screen for enhanced usability and clarity.
+                    </p>
+                    <h4>HTML . CSS . Javascript</h4>
+                    <ul>
+                        <li><a href="https://github.com/KhalidHayKay/willow_studio" target="_blank" class="fa-brands fa-github"></a></li>
+                        <li><a href="https://haykay-willowstudio.netlify.app" target="_blank" class="fa-solid fa-arrow-up-right-from-square"></a></li>
+                    </ul>
+                </div>
+                <img src="/imgs/projects_sneak_pic/willow_studio.png" target="_blank" alt="Screenshot of Review Page"/>
+            </article>
+
+            <article>
+                <div class="text">
+                    <h4>Coding Challenge</h4>
+                    <h3>Technical documentation page</h3>
+                    <p class="blackbox">
+                        Presenting a multifunctional calculator app featuring advanced capabilities beyond basic arithmetic. Employs specialized functions for square roots, root finding, and distinct display of problems and solutions on the designated screen for enhanced usability and clarity.
+                    </p>
+                    <h4>HTML . CSS</h4>
+                    <ul>
+                        <li><a href="https://github.com/KhalidHayKay/Technical_Documentation_ui" target="_blank" class="fa-brands fa-github"></a></li>
+                        <li><a href="https://technicaldocumentation-sample.netlify.app" target="_blank" class="fa-solid fa-arrow-up-right-from-square"></a></li>
+                    </ul>
+                </div>
+                <img src="/imgs/projects_sneak_pic/tech_doc.png" target="_blank" alt="Screenshot of Review Page"/>
             </article>
         </div>
     </section>
@@ -83,21 +122,21 @@
         <h3>Contact me</h3>
 
         <div class="contact-me">
-            <form action="#" Netlify>
+            <form name="portfolio-contact" method="POST" netlify>
                 <div class="fields">
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" >
+                    <input type="text" name="name" id="name" required>
                 </div>
                 <div class="fields">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" >
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div class="fields">
                     <label for="message">Compose a message</label>
-                    <textarea name="message" id="message"></textarea>
+                    <textarea name="message" id="message" required></textarea>
                 </div>
                 <div class="fields">
-                    <input type="button" value="Send">
+                    <input type="submit" value="Send">
                 </div>
             </form>
             <div class="socials">
@@ -112,19 +151,19 @@
                         <p>LinkedIn</p>
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>-->
-                    <a href="">
+                    <a href="https://twitter.com/KhalidHayKay" target="_blank">
                         <p>Twitter</p>
                         <i class="fa-brands fa-x-twitter"></i>
                     </a>
-                    <a href="">
+                    <a href="mailto:alamutukhalid@gmail.com" target="_blank">
                         <p>Mail me</p>
                         <i class="fa-solid fa-envelope"></i>
                     </a>
-                    <a href="">
+                    <a href="https://wa.me/08089721775?text=From%20your%20portfolio:" target="_blank">
                         <p>Whatsapp</p>
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    <a href="">
+                    <a href="tel:09063097314" target="_blank">
                         <p>Call me</p>
                         <i class="fa-solid fa-phone"></i>
                     </a>
