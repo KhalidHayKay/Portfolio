@@ -1,0 +1,93 @@
+header {
+    border-bottom: 2px solid $secondary-color;
+    padding: 20px;
+    @include flex($dir: column, $align: center, $gap: 20px);
+    @include MQ(800px) {
+        padding: percentage-decrease(20px, 30);
+    }
+    @include MQ(450px) {
+        padding: percentage-decrease(20px, 40);
+    }
+
+    h1 {
+        $font-size: 32px;
+        @include MQ(800px) {
+            font-size: percentage-decrease($font-size, 20);
+        }
+        @include MQ(600px) {
+            font-size: percentage-decrease($font-size, 30);
+        }
+        @include MQ(450px) {
+            font-size: percentage-decrease($font-size, 40);
+        }
+    }
+
+    nav {
+        @include flex($dir: row, $gap: 20px);
+        
+        a {
+            color: $text-color;
+            text-decoration: none;
+            font-size: larger;
+            @include MQ(800px) {
+                font-size: percentage-decrease(19px, 15);
+            }
+            @include MQ(450px) {
+                font-size: percentage-decrease(19px, 25);
+            }
+
+            &.active {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+section.about-me {
+    $height: 700px;
+    height: $height;
+    background-image: linear-gradient(rgba(5, 70, 40, 0.5), rgba(5, 70, 40, 0.5)),
+                  url("../imgs/workspace_2.jpg");
+    background-size: cover;
+    background-position: center;
+    @include flex($dir: column, $align: center, $justify: center, $gap: 20px);
+
+    $h2-font-size: 24px;
+    @include MQ(800px) {
+        height: percentage-decrease($height, 30);
+
+        h2 {
+            font-size: percentage-decrease($h2-font-size, 15);
+        }
+    }
+    @include MQ(800px) {
+        h2 {
+            font-size: percentage-decrease($h2-font-size, 25);
+        }
+    }
+
+    div {
+        text-align: center;
+
+        p {
+            width: 700px;
+            padding: 5px 0;
+            font-size: larger;
+            $font-size: 19px;
+            @include MQ(800px) {
+                font-size: percentage-decrease($font-size, 20);
+            }
+            @include MQ(700px) {
+                width: 100%;
+                font-size: percentage-decrease($font-size, 30);
+            }
+            @include MQ(500px) {
+                padding: 0 20px;
+            }
+            @include MQ(450px) {
+                font-size: percentage-decrease($font-size, 40);
+                // padding: 0 20px;
+            }
+        }
+    }
+}

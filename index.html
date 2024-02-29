@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <script src="https://kit.fontawesome.com/ee554a58a8.js" crossorigin="anonymous"></script>
+    <script defer src="js/app.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1 class="welcome">Hi, Welcome to my <span class="special-text">Portfolio</span></h1>
+        <nav>
+            <a href="#about-me" class="active">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+
+    <section id="about-me" class="about-me">
+        <h2>Web Designer</h2>
+        <div>
+            <p>My name is <span class="special-text">Alamutu Khalid</span>, Nigerian, 21.</p>
+            <p>I design web pages with <span class="stacks">HTML</span>, <span class="stacks">CSS</span>, <span class="stacks">SCSS</span> and <span class="stacks">Javascript</span>.</p>
+            <p>I also use frameworks and libraries like <span class="stacks">Swiper.js</span> and <span class="stacks">Tailwind CSS</span> to craft dynamic carousels and responsive interfaces.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="projects-container">
+            <div class="header">
+                <span class="small-line"></span>
+                <h2>Some projects i've built</h2>
+                <span class="big-line"></span>
+            </div>
+
+            <article>
+                <div class="text">
+                    <h4>E-Commerce website</h4>
+                    <h3>SELL4ME</h3>
+                    <p class="blackbox">Description of the project: A responsive Contact-Us Page that obtain users information in order for the developer or organization to acknowledge their complaints or contributions. Click to view more. </p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <img src="imgs/projects_sneak_pic/sell4me.png" alt="Screenshot of the Contact-Us Page."/>
+            </article>
+            
+            <article class="reverse">
+                <div class="text">
+                    <h4>Latest Project</h4>
+                    <h3>Quick-Task Manager App</h3>
+                    <p class="blackbox">Description of the project. The survey form is to collate information from end-users in order to feed the organization and developer on lapses or new features they need to be added to the webpage. Click to view more.</p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <img src="imgs/projects_sneak_pic/todolist_apk.png" target="_blank" alt="Screenshot of Survey Form"/>
+            </article>
+        
+            <article>
+                <div class="text">
+                    <h4>Fun Project</h4>
+                    <h3>Calculator App</h3>
+                    <p class="blackbox">Description of the project. This product-review page is a demo page that shows how a product-review website to view more.</p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <img src="/imgs/projects_sneak_pic/calculator.png" target="_blank" alt="Screenshot of Review Page"/>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>Contact me</h3>
+
+        <div class="contact-me">
+            <form action="#" Netlify>
+                <div class="fields">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" >
+                </div>
+                <div class="fields">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" >
+                </div>
+                <div class="fields">
+                    <label for="message">Compose a message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="fields">
+                    <input type="button" value="Send">
+                </div>
+            </form>
+            <div class="socials">
+                <h4>Get in <span class="special-text">Touch</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium sint ad fuga suscipit necessitatibus! Autem dolorem fugit officia dicta delectus? Alias voluptas blanditiis nostrum aspernatur! Debitis, cupiditate saepe? Consequatur.</p>
+                <div class="social-links">
+                    <!--<a href="">
+                        <p>Github</p>
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="">
+                        <p>LinkedIn</p>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>-->
+                    <a href="">
+                        <p>Twitter</p>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="">
+                        <p>Mail me</p>
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="">
+                        <p>Whatsapp</p>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <p>Call me</p>
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
