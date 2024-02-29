@@ -149,6 +149,12 @@ section.about-me a {
 section.about-me a:hover {
   opacity: 0.7;
 }
+@media screen and (max-width: 600px) {
+  section.about-me a {
+    padding: 7px;
+    font-size: smaller;
+  }
+}
 
 section.projects {
   background-color: #f5625d;
