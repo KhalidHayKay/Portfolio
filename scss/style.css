@@ -133,11 +133,6 @@ section.about-me div p {
     padding: 0 20px;
   }
 }
-@media screen and (max-width: 450px) {
-  section.about-me div p {
-    font-size: 11.4px;
-  }
-}
 section.about-me a {
   background-color: #f5625d;
   color: #efecec;
@@ -183,6 +178,11 @@ section.projects .projects-container div.header {
   justify-items: center;
   align-items: center;
 }
+@media screen and (max-width: 450px) {
+  section.projects .projects-container div.header {
+    grid-template-columns: 1fr 6.5fr 2.5fr;
+  }
+}
 section.projects .projects-container div.header h2 {
   font-size: 32px;
 }
@@ -201,6 +201,11 @@ section.projects .projects-container div.header h2 {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 355px) {
+  section.projects .projects-container div.header h2 {
+    font-size: 17px;
+  }
+}
 section.projects .projects-container div.header span {
   height: 2px;
   width: 100%;
@@ -209,6 +214,11 @@ section.projects .projects-container div.header span {
 section.projects .projects-container h4 {
   font-size: 1rem;
   margin: 0;
+}
+@media screen and (max-width: 450px) {
+  section.projects .projects-container h4 {
+    font-size: 0.8rem;
+  }
 }
 section.projects .projects-container .blackbox {
   padding: 1rem;
@@ -219,7 +229,7 @@ section.projects .projects-container .blackbox {
 }
 @media screen and (max-width: 450px) {
   section.projects .projects-container .blackbox {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 section.projects .projects-container ul {

@@ -89,10 +89,6 @@ section.about-me {
             @include MQ(500px) {
                 padding: 0 20px;
             }
-            @include MQ(450px) {
-                font-size: percentage-decrease($font-size, 40);
-                // padding: 0 20px;
-            }
         }
     }
 
