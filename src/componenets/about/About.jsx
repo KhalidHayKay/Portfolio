@@ -1,7 +1,7 @@
 import './about.css';
 import AboutImg from '../../assets/about.jpg';
 import { ReactComponent as FilesSVG } from '../../assets/files.svg';
-import CV from '../../assets/Alamutu_Khalid_CV.pdf';
+import CV from "../../assets/Alamutu_Khalid's_CV.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -17,9 +17,9 @@ const About = () => {
 					<Info />
 
 					<p className='about-description'>
-						I am a 21 years old web developer. I develop websites with HTML, CSS,
-						Javascript and php. I also use their frameworks to built good interfaces
-						and structured backend
+						I'm a 21-year-old web developer passionate about crafting interactive
+						websites. Using HTML, CSS, JavaScript, PHP, modern frameworks, I build
+						appealing frontends and structured backends.
 					</p>
 
 					<a

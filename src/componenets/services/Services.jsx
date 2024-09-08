@@ -34,36 +34,32 @@ const Services = () => {
 								onClick={() => setToggleState(0)}
 							></i>
 
-							<h3 className='services-modal-title'>Web Development</h3>
+							<h3 className='services-modal-title'>UI/UX Design Implementation</h3>
 							<p className='services-modal-description'>
-								Service with more than 3 years of experience.Providing quality work to
-								clients and companies.
+								Translating design prototypes into functional web pages with a focus on
+								usability and aesthetics.
 							</p>
 
 							<ul className='services-modal-services grid'>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>I develop the user Interface</p>
+									<p className='services-modal-info'>Pixel-perfect Conversion.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>Web page development.</p>
+									<p className='services-modal-info'>Responsive Design.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>
-										I create ux element interactions.
-									</p>
+									<p className='services-modal-info'>Interactive Elements.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>I position your company brand.</p>
+									<p className='services-modal-info'>Optimized Performance.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>
-										Design and mockups of products for companies.
-									</p>
+									<p className='services-modal-info'>Accessibility Compliance.</p>
 								</li>
 							</ul>
 						</div>
@@ -103,27 +99,23 @@ const Services = () => {
 							<ul className='services-modal-services grid'>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>I develop the user Interface</p>
+									<p className='services-modal-info'>Custom API Development.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>Web page development.</p>
+									<p className='services-modal-info'>Third-party API Integration.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>
-										I create ux element interactions.
-									</p>
+									<p className='services-modal-info'>Secure Data Transfer.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>I position your company brand.</p>
+									<p className='services-modal-info'>Efficient Data Handling.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>
-										Design and mockups of products for companies.
-									</p>
+									<p className='services-modal-info'>Error Handling & Documentation.</p>
 								</li>
 							</ul>
 						</div>
@@ -163,27 +155,23 @@ const Services = () => {
 							<ul className='services-modal-services grid'>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>I develop the user Interface</p>
+									<p className='services-modal-info'>Bug Fixes & Updates.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>Web page development.</p>
+									<p className='services-modal-info'>Performance Optimization.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>
-										I create ux element interactions.
-									</p>
+									<p className='services-modal-info'>Security Enhancements.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>I position your company brand.</p>
+									<p className='services-modal-info'>Version Control & Upgrades.</p>
 								</li>
 								<li className='services-modal-service'>
 									<i className='uil uil-check-circle service-modal-icon'></i>
-									<p className='services-modal-info'>
-										Design and mockups of products for companies.
-									</p>
+									<p className='services-modal-info'>24/7 Support.</p>
 								</li>
 							</ul>
 						</div>

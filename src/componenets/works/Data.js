@@ -64,6 +64,6 @@ export const Data = [
 		description:
 			"This Portfolio Website is designed to showcase the skills, projects, and services of a professional web developer. Built with React, it features a modern and clean design that reflects the developer's personal brand. The site includes sections for work experience, technical skills, and completed projects, offering a detailed overview of rendered. It is an ideal platform for professionals looking to present their work to potential clients and collaborators",
 		github: 'https://github.com/KhalidHayKay/Portfolio',
-		website: 'k',
+		website: 'https://alamutukhalid.netlify.app',
 	},
 ];

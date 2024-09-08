@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Modal from './modal/Modal';
 
 const Work = ({ item }) => {
-	const [workIndex, setWorkIndex] = useState(2);
+	const [workIndex, setWorkIndex] = useState(0);
 
 	return (
 		<div className='work-card'>
