@@ -10,7 +10,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills-name'>PHP</h3>
-							<span className='skills-experience'>3+ years</span>
+							<span className='skills-experience'>2 years</span>
 						</div>
 					</div>
 
@@ -18,8 +18,8 @@ const Backend = () => {
 						<i className='bx bx-badge-check'></i>
 
 						<div>
-							<h3 className='skills-name'>MySQL</h3>
-							<span className='skills-experience'>3+ years</span>
+							<h3 className='skills-name'>Slim</h3>
+							<span className='skills-experience'>1+ year</span>
 						</div>
 					</div>
 
@@ -27,8 +27,8 @@ const Backend = () => {
 						<i className='bx bx-badge-check'></i>
 
 						<div>
-							<h3 className='skills-name'>Laravel</h3>
-							<span className='skills-experience'>3+ years</span>
+							<h3 className='skills-name'>Symfony</h3>
+							<span className='skills-experience'>1+ year</span>
 						</div>
 					</div>
 				</div>
@@ -38,8 +38,8 @@ const Backend = () => {
 						<i className='bx bx-badge-check'></i>
 
 						<div>
-							<h3 className='skills-name'>Slim (PHP)</h3>
-							<span className='skills-experience'>3+ years</span>
+							<h3 className='skills-name'>MySQL</h3>
+							<span className='skills-experience'>2 years</span>
 						</div>
 					</div>
 
@@ -47,8 +47,8 @@ const Backend = () => {
 						<i className='bx bx-badge-check'></i>
 
 						<div>
-							<h3 className='skills-name'>Symfony</h3>
-							<span className='skills-experience'>3+ years</span>
+							<h3 className='skills-name'>Laravel</h3>
+							<span className='skills-experience'>1 year</span>
 						</div>
 					</div>
 
@@ -57,7 +57,7 @@ const Backend = () => {
 
 						<div>
 							<h3 className='skills-name'>Docker</h3>
-							<span className='skills-experience'>3+ years</span>
+							<span className='skills-experience'>2 year</span>
 						</div>
 					</div>
 				</div>

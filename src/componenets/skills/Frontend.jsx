@@ -18,26 +18,26 @@ const Frontend = () => {
 						<i className='bx bx-badge-check'></i>
 
 						<div>
-							<h3 className='skills-name'>CSS</h3>
-							<span className='skills-experience'>3+ years</span>
-						</div>
-					</div>
-
-					<div className='skills-data'>
-						<i className='bx bx-badge-check'></i>
-
-						<div>
-							<h3 className='skills-name'>SASS</h3>
-							<span className='skills-experience'>3+ years</span>
-						</div>
-					</div>
-
-					<div className='skills-data'>
-						<i className='bx bx-badge-check'></i>
-
-						<div>
 							<h3 className='skills-name'>JavaScript</h3>
 							<span className='skills-experience'>3+ years</span>
+						</div>
+					</div>
+
+					<div className='skills-data'>
+						<i className='bx bx-badge-check'></i>
+
+						<div>
+							<h3 className='skills-name'>React</h3>
+							<span className='skills-experience'>2+ years</span>
+						</div>
+					</div>
+
+					<div className='skills-data'>
+						<i className='bx bx-badge-check'></i>
+
+						<div>
+							<h3 className='skills-name'>TypeScript</h3>
+							<span className='skills-experience'>1+ year</span>
 						</div>
 					</div>
 				</div>
@@ -47,8 +47,17 @@ const Frontend = () => {
 						<i className='bx bx-badge-check'></i>
 
 						<div>
-							<h3 className='skills-name'>React</h3>
+							<h3 className='skills-name'>CSS</h3>
 							<span className='skills-experience'>3+ years</span>
+						</div>
+					</div>
+
+					<div className='skills-data'>
+						<i className='bx bx-badge-check'></i>
+
+						<div>
+							<h3 className='skills-name'>Sass</h3>
+							<span className='skills-experience'>2+ years</span>
 						</div>
 					</div>
 
@@ -57,16 +66,7 @@ const Frontend = () => {
 
 						<div>
 							<h3 className='skills-name'>Tailwind</h3>
-							<span className='skills-experience'>3+ years</span>
-						</div>
-					</div>
-
-					<div className='skills-data'>
-						<i className='bx bx-badge-check'></i>
-
-						<div>
-							<h3 className='skills-name'>TypeScript</h3>
-							<span className='skills-experience'>3+ years</span>
+							<span className='skills-experience'>2+ years</span>
 						</div>
 					</div>
 

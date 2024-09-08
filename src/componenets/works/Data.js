@@ -12,7 +12,7 @@ export const Data = [
 		title: 'Task Scheduler App',
 		description:
 			"The Task Scheduler App (Taskify) is a simple yet effective tool I designed to help individuals manage and organized their tasks. With it's easy-to-use interface, users can create, manage, categorize and prioritize daily to-dos and long-term projects. The app includes automated email notifications that alert users when a task is approaching its due date or becomes overdue.",
-		stacks: 'PHP TypeScript Tailwind Sass Symfony',
+		stacks: 'PHP TypeScript Tailwind Symfony',
 		github: 'https://github.com/KhalidHayKay/Taskify',
 		website: null,
 	},
