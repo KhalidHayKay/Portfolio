@@ -7,7 +7,7 @@ import Home from './componenets/home/Home';
 import ScrollUp from './componenets/scrollup/ScrollUp';
 import Services from './componenets/services/Services';
 import Skills from './componenets/skills/Skills';
-import Testimonials from './componenets/testimonials/Testimonials';
+// import Testimonials from './componenets/testimonials/Testimonials';
 import Works from './componenets/works/Works';
 
 function App() {
