@@ -18,7 +18,7 @@ const About = () => {
 
 					<p className='about-description'>
 						I'm a 21-year-old web developer passionate about crafting interactive
-						websites. Using HTML, CSS, JavaScript, PHP, modern frameworks, I build
+						websites. Using HTML, CSS, JavaScript, PHP and modern frameworks, I build
 						appealing frontends and structured backends.
 					</p>
 
