@@ -8,22 +8,22 @@ import RestApi from '../../assets/work_rest_api.jpg';
 export const Data = [
 	{
 		id: 1,
-		image: TaskSchedularApp,
-		title: 'Task Scheduler App',
-		description:
-			"The Task Scheduler App (Taskify) is a simple yet effective tool I designed to help individuals manage and organized their tasks. With it's easy-to-use interface, users can create, manage, categorize and prioritize daily to-dos and long-term projects. The app includes automated email notifications that alert users when a task is approaching its due date or becomes overdue.",
-		stacks: 'PHP TypeScript Tailwind Symfony',
-		github: 'https://github.com/KhalidHayKay/Taskify',
-		website: null,
-	},
-	{
-		id: 2,
 		image: WeatherApp,
 		title: 'Weather App',
 		description:
 			'The React Weather App (Weather4Cast) delivers real-time weather updates in a clean, easy-to-use interface. Users can search by city to view current conditions, hourly forecasts, and details like temperature, humidity, and wind speed. With features like a UV index and weather data for major cities, the app keeps users informed about the weather at a glance.',
 		stacks: 'React Tailwind',
 		github: 'https://github.com/KhalidHayKay/Weather4Cast',
+		website: 'https://myweather4cast.netlify.app/',
+	},
+	{
+		id: 2,
+		image: TaskSchedularApp,
+		title: 'Task Scheduler App',
+		description:
+			"The Task Scheduler App (Taskify) is a simple yet effective tool I designed to help individuals manage and organized their tasks. With it's easy-to-use interface, users can create, manage, categorize and prioritize daily to-dos and long-term projects. The app includes automated email notifications that alert users when a task is approaching its due date or becomes overdue.",
+		stacks: 'PHP TypeScript Tailwind Symfony',
+		github: 'https://github.com/KhalidHayKay/Taskify',
 		website: null,
 	},
 	{
