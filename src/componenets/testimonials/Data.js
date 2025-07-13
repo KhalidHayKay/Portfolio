@@ -21,9 +21,9 @@ export const Data = [
 	{
 		id: 2,
 		image: null,
-		name: 'Babatunde',
+		name: 'Oluwasegun Babalola',
 		link: null,
-		title: 'Frontend Developer',
+		title: 'UIUX designer',
 		description:
 			'Khalid is a developer with a rare eye for user-centric design. His knack for rapid iteration and attention to detail ensured a seamless bridge between UX and implementation. He’s the kind of technical partner who elevates both product and process.',
 	},
