@@ -10,8 +10,7 @@ const About = () => {
 
 			<div className='about-container container grid'>
 				<img
-					// src='https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@master/Portfolio/about.jpg'
-					src='https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@d6ee9d6093cefae1da16efad342ede44d67c2dae/Portfolio/about_2.jpg'
+					src='https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@e5ea5f78ba4bcf002e161181ab53eaba331f7ec7/Portfolio/about_img.jpg'
 					alt='about__img'
 					className='about-img'
 				/>
