@@ -2,6 +2,8 @@ import './skills.css';
 import { Data } from './Data';
 
 const Skills = () => {
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<section className='skills section' id='skills'>
 			<h2 className='section-title'>Skills</h2>
@@ -19,7 +21,9 @@ const Skills = () => {
 
 									<div>
 										<h3 className='skills-name'>{skill.name}</h3>
-										<span className='skills-experience'>{skill.experience}</span>
+										<span className='skills-experience'>
+											{currentYear - skill.experience}+ years
+										</span>
 									</div>
 								</div>
 							))}

@@ -31,7 +31,7 @@ const Footer = () => {
 						rel='noreferrer'
 						className='footer-social-link'
 					>
-						<i className='bx bxs-book-content'></i>
+						<i class='bx bx-pencil'></i>
 					</a>
 					<a
 						href='https://x.com/KhalidHayKay'

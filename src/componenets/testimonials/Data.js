@@ -32,7 +32,7 @@ export const Data = [
 		image: null,
 		name: 'Yusuf A Hussein',
 		link: null,
-		title: 'Frontend Engeneer',
+		title: 'Frontend Engineer',
 		description:
 			'We’ve collaborated on multiple projects. Khalid has a sharp eye for detail and moves fast. He brings energy, curiosity, and a real drive to ship functional code. He’s the type of engineer you want in your team.',
 	},

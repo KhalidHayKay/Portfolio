@@ -7,7 +7,7 @@ const Info = () => {
 			<h1 className='home-title'>
 				Alamutu Khalid <Hand />
 			</h1>
-			<h3 className='home-subtitle'>Fullstack Web Developer</h3>
+			<h3 className='home-subtitle'>Fullstack Developer</h3>
 			<p className='home-description'>
 				Based in Lagos — I’m passionate about turning ideas into fast, reliable
 				software.
