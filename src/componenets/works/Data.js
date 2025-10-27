@@ -5,22 +5,23 @@ export const Data = [
 			'https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@a932fb07c6e37ecaf9dadd1136c2b307e4332855/Portfolio/work_messaging_app.jpg',
 		title: 'PeriChat',
 		description:
-			'PeriChat is a real-time messaging platform built with <strong>Laravel</strong>, <strong>React</strong>, <strong>Inertia</strong>, and <strong>Tailwind</strong>. It supports secure user chats, contact management, and delivers a clean, responsive UI.',
+			'PeriChat Frontend is a real-time messaging platform built with <strong>React</strong>, <strong>Vite</strong>, and <strong>Tailwind</strong>. Users can start one-on-one conversations, create and join group chats, and enjoy a smooth messaging experience across devices.',
+		// description: 'PeriChat Frontend is a dynamic chat interface built with <strong>React</strong>, <strong>Vite</strong>, and <strong>Tailwind</strong>. It handles real-time messaging, group chats, and conversation management through seamless API integration, designed for speed and reliability.',
 		github: 'https://github.com/KhalidHayKay/Perichat',
-		website: '',
+		website: 'https://perichat-livid.vercel.app',
 	},
 	{
-		id: 2,
+		id: 3,
 		image:
 			'https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@master/Portfolio/work_weather.jpg',
 		title: 'Weather4Cast',
 		description:
 			'Weather4Cast is a weather app built with <strong>React</strong> and <strong>Tailwind</strong>. It shows real-time conditions, UV index, and multi-city forecasts with a fast, mobile-friendly interface.',
 		github: 'https://github.com/KhalidHayKay/Weather4Cast',
-		website: 'https://myweather4cast.netlify.app/',
+		website: 'https://myweather4cast.netlify.app',
 	},
 	{
-		id: 3,
+		id: 5,
 		image:
 			'https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@master/Portfolio/work_task_schedular.jpg',
 		title: 'Taskify',
@@ -30,13 +31,24 @@ export const Data = [
 		website: null,
 	},
 	{
-		id: 4,
+		id: 2,
 		image:
 			'https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@master/Portfolio/work_rest_api.jpg',
-		title: 'Feedback API',
+		title: 'Capsule Auth API',
 		description:
-			'Feedback API is a RESTful service built with <strong>PHP</strong>. It supports CRUD operations for feedback, ratings, and comments — built for clean integration into other apps.',
-		github: 'https://github.com/KhalidHayKay/Feedback-REST',
+			'Originally built as the authentication layer for a larger Laravel app, this stateless Auth API handles user signup, email verification, and password recovery through secure, code-based email workflows — built for reliability and scalability.',
+		github: 'https://github.com/KhalidHayKay/Capsule-BE',
+		website:
+			'https://capsule-ptt2.onrender.com/docs/api?token=e3b7f84f-b35a-41c7-90c2-8f7a6b912c49',
+	},
+	{
+		id: 4,
+		image:
+			'https://cdn.jsdelivr.net/gh/KhalidHayKay/Assets@eeb09308b0ad4a3fe5abcc770981e002cfa858a5/Portfolio/work_messaging_api.png',
+		title: 'PeriChat API',
+		description:
+			'PeriChat API is a real-time messaging backend built with <strong>Laravel</strong>. It features a well-structured database design and supports event-driven communication via WebSockets — forming the backbone of PeriChat’s live chat system.',
+		github: 'https://github.com/KhalidHayKay/PeriChat-BE',
 		website: null,
 	},
 ];

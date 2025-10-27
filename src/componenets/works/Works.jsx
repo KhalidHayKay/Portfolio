@@ -9,9 +9,11 @@ const Works = () => {
 			<span className='section-subtitle'>My most recent works</span>
 
 			<div className='works-container container grid'>
-				{Data.map((item) => (
-					<Work item={item} key={item.id} />
-				))}
+				{[...Data]
+					.sort((a, b) => a.id - b.id) // ascending order
+					.map((item) => (
+						<Work item={item} key={item.id} />
+					))}
 			</div>
 		</section>
 	);
